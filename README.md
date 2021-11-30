@@ -27,7 +27,9 @@ Inspirada no sistema real da embarcação, a interface desenvolvida nesse projet
 
 ## Concepção 
 
-Todo o sistema deve possuir alta eficiência energética. A interface em si deve ser acessível o suficiente para não afetar a performance do piloto. Em razão dos dispositivos já implementados no projeto, a interface deve ser desenvolvida para Linux em Raspberry PI 
+Visando o alvo de aplicação da interface, o sistema deve possuir alta eficiência energética. A interface em si deve ser acessível o suficiente para não afetar a performance do piloto. Em razão dos dispositivos já implementados no projeto, a interface deve ser desenvolvida para Linux em Raspberry PI.
+
+O diagrama abaixo resume os sensores a serem implementados. Uma vez que esse projeto foca na leitura dos sensores e na programação da interface com seus valores, não serão implementadas baterias como fonte de alimentação.
 
 ![Diagrama-de-Blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/42905bbc8b831b0dd53ef31a9d91c6edcf7d39e2/Imagens/Diagrama%20de%20Blocos.PNG)
 

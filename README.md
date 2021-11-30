@@ -23,12 +23,11 @@ Aluno:
 
 O Desafio Barco Solar (DSB) é uma competição de embarcações elétrica da qual o IFSC participa, a equipe da instituição é conhecida como Zênite Solar. O barco começa a competição com baterias carregadas e, durante o período de aproximadamente uma semana, só podem ser recarregadas pelos painéis fotovoltaicos.
 
-A interface desenvolvida nesse projeto tem como objetivo melhorar o poder de decisão do piloto, que poderá contar com informações como: posição, medidas de velocidade, medidas elétricas.
-
+Inspirada no sistema real da embarcação, a interface desenvolvida nesse projeto tem como objetivo melhorar o poder de decisão do piloto com informações como: posição, medidas de velocidade, medidas elétricas.
 
 ## Concepção 
 
 Todo o sistema deve possuir alta eficiência energética. A interface em si deve ser acessível o suficiente para não afetar a performance do piloto. Em razão dos dispositivos já implementados no projeto, a interface deve ser desenvolvida para Linux em Raspberry PI 
 
-
+![Diagrama-de-Blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/e7bd21b83cfe6cd2161daf83f0e7dc12f937cc54/Images/Diagrama%20de%20Blocos.PNG)
 

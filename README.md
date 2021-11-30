@@ -27,9 +27,12 @@ Inspirada no sistema real da embarcação, a interface desenvolvida nesse projet
 
 ## Concepção 
 
-Visando o alvo de aplicação da interface, o sistema deve possuir alta eficiência energética e deve ser acessível o suficiente para não afetar a performance do piloto. Em razão dos dispositivos já implementados na embarcação, a interface será desenvolvida em Linux na placa RaspberryPi 3 Model B+.
+Visando o alvo de aplicação da interface, o sistema deve possuir alta eficiência energética e a interface deve ser acessível para não afetar a performance do piloto. Além disso, 
+o projeto deve estar de acordo com qualquer hardware já implementado no sistema real, assim como respeitar suas limitações (espaço de memória, entradas e saídas, ...).
 
-O diagrama abaixo resume os sensores a serem implementados. Uma vez que esse projeto foca na leitura dos sensores e na programação da interface com seus valores, não serão implementadas baterias como fonte de alimentação.
+O diagrama abaixo resume os sensores a serem implementados. Uma vez que esse projeto foca na leitura dos sensores e na programação da interface com seus valores, não serão implementadas baterias como fonte de alimentação. 
 
 ![Diagrama_de_Blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/690addeefef70a82127170eda30d2d9cc525a552/Imagens/Diagrama_de_Blocos.PNG)
+
+O computador escolhido é o RaspberryPI 3 Model B+, por ser o modelo utilizado no sistema real da embarcação.
 

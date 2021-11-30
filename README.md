@@ -29,5 +29,5 @@ Inspirada no sistema real da embarcação, a interface desenvolvida nesse projet
 
 Todo o sistema deve possuir alta eficiência energética. A interface em si deve ser acessível o suficiente para não afetar a performance do piloto. Em razão dos dispositivos já implementados no projeto, a interface deve ser desenvolvida para Linux em Raspberry PI 
 
-![Diagrama-de-Blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/e7bd21b83cfe6cd2161daf83f0e7dc12f937cc54/Images/Diagrama%20de%20Blocos.PNG)
+![Diagrama-de-Blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/Diagrama%20de%20Blocos.PNG)
 

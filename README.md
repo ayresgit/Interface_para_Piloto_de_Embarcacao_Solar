@@ -32,7 +32,7 @@ o projeto deve estar de acordo com qualquer hardware já implementado no sistema
 
 O diagrama abaixo resume os sensores a serem implementados. Uma vez que esse projeto foca na leitura dos sensores e na programação da interface com seus valores, não serão implementadas baterias como fonte de alimentação. 
 
-![Diagrama_de_Blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/690addeefef70a82127170eda30d2d9cc525a552/Imagens/Diagrama_de_Blocos.PNG)
+![Diagrama de blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/66c080f19e3e0359c93418ba5f443b55b9d15e1b/Imagens/Diagrama%20de%20blocos.PNG)
 
 O computador escolhido é o RaspberryPI 3 Model B+, por ser o modelo utilizado no sistema real da embarcação.
 

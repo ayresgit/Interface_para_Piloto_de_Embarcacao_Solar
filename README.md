@@ -32,7 +32,7 @@ o projeto deve estar de acordo o hardware implementado no sistema real, assim co
 
 As grandezas de interesse são: Posição GPS, orientação cardeal e velocidade. O diagrama de blocos abaixo idealiza o sistema e os sensores que devem ser implementados.
 
-![Diagrama concepção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/ce7a079fa91f62da34a3c3bfb89e7f4de6a3df2e/Imagens/Diagrama_concep%C3%A7%C3%A3o.PNG)
+![Diagrama concepção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/5662c4e64353ec0158540062fcd75b0bab9321d2/Imagens/Diagrama_concep%C3%A7%C3%A3o.PNG)
 
 Esse projeto foca na leitura dos sensores e na programação da interface com seus valores, portanto, não serão implementadas baterias como fonte de alimentação. Os sensores de tensão e corrente serão simulados.
 

@@ -23,7 +23,7 @@ Aluno:
 
 O Desafio Barco Solar (DSB) é uma competição de embarcações elétrica da qual o IFSC participa, a equipe da instituição é conhecida como Zenite Solar. O barco começa a competição com baterias carregadas e, durante o período de aproximadamente uma semana, só podem ser recarregadas pelos painéis fotovoltaicos.
 
-Inspirada no sistema real da embarcação, a interface desenvolvida nesse projeto tem como objetivo auxiliar a pilotar um veículo. Pensando em casos rotineiros, como dirigir um carro, é paupável o conforto e segurança fornecidos por informações como velocidade, quantidade de combustível e até mesmo GPS.
+Inspirada no sistema real da embarcação, a interface desenvolvida nesse projeto tem como objetivo auxiliar a pilotar um veículo. Pensando em casos rotineiros como dirigir um carro, é paupável o conforto e segurança fornecidos por informações como velocidade, quantidade de combustível e até mesmo GPS.
 
 ## Concepção 
 

@@ -23,16 +23,18 @@ Aluno:
 
 O Desafio Barco Solar (DSB) é uma competição de embarcações elétrica da qual o IFSC participa, a equipe da instituição é conhecida como Zênite Solar. O barco começa a competição com baterias carregadas e, durante o período de aproximadamente uma semana, só podem ser recarregadas pelos painéis fotovoltaicos.
 
-Inspirada no sistema real da embarcação, a interface desenvolvida nesse projeto tem como objetivo melhorar o poder de decisão do piloto com informações como: posição, medidas de velocidade, medidas elétricas.
+Inspirada no sistema real da embarcação, a interface desenvolvida nesse projeto tem como objetivo auxiliar a pilotar um veículo. Pensando em casos rotineiros, como dirigir um carro, é paupável o conforto e segurança fornecidos por informações como velocidade, quantidade de combustível e até mesmo GPS.
 
 ## Concepção 
 
 Visando o alvo de aplicação da interface, o sistema deve possuir alta eficiência energética e a interface deve ser acessível para não afetar a performance do piloto. Além disso, 
-o projeto deve estar de acordo com qualquer hardware já implementado no sistema real, assim como respeitar suas limitações (espaço de memória, entradas e saídas, ...).
+o projeto deve estar de acordo o hardware implementado no sistema real, assim como respeitar suas limitações (espaço de memória, entradas e saídas, ...).
 
-O diagrama abaixo resume os sensores a serem implementados. Uma vez que esse projeto foca na leitura dos sensores e na programação da interface com seus valores, não serão implementadas baterias como fonte de alimentação. 
+As grandezas de interesse são: Posição GPS, orientação cardeal, velocidade, e sensores de tensão e corrente para baterias. O diagrama abaixo resume os sensores a serem implementados. 
 
 ![Diagrama de blocos](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/66c080f19e3e0359c93418ba5f443b55b9d15e1b/Imagens/Diagrama%20de%20blocos.PNG)
+
+Esse projeto foca na leitura dos sensores e na programação da interface com seus valores, portanto, não serão implementadas baterias como fonte de alimentação. 
 
 O computador escolhido é o RaspberryPI 3 Model B+, por ser o modelo utilizado no sistema real da embarcação.
 

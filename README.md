@@ -34,7 +34,5 @@ As grandezas de interesse são: Posição GPS, orientação cardeal e velocidade
 
 ![Diagrama concepção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/5662c4e64353ec0158540062fcd75b0bab9321d2/Imagens/Diagrama_concep%C3%A7%C3%A3o.PNG)
 
-Esse projeto foca na leitura dos sensores e na programação da interface com seus valores, portanto, não serão implementadas baterias como fonte de alimentação. Os sensores de tensão e corrente serão simulados. ( ainda não decidido )
 
-O computador escolhido é o RaspberryPI 3 Model B+, por ser o modelo utilizado no sistema real da embarcação.
 

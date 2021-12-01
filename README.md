@@ -30,7 +30,7 @@ Inspirada no sistema real da embarcação, a interface desenvolvida nesse projet
 Visando o alvo de aplicação da interface, o sistema deve possuir alta eficiência energética e a interface deve ser acessível para não afetar a performance do piloto. Além disso, 
 o projeto deve estar de acordo o hardware implementado no sistema real, assim como respeitar suas limitações (quantidade de memória, entradas e saídas, ...).
 
-As grandezas de interesse são: Posição GPS, orientação cardeal e velocidade. O diagrama de blocos abaixo idealiza o sistema e os sensores que devem ser implementados.
+As grandezas de interesse são: Posição GPS, orientação cardeal, velocidade, tensão e corrente na bateria. O diagrama de blocos abaixo idealiza o sistema e os sensores que devem ser implementados.
 
 ![Diagrama concepção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/5f6bf20e956930dfbec1722abd79817f228a61f0/Imagens/Diagrama_concep%C3%A7%C3%A3o.PNG)
 

@@ -38,8 +38,10 @@ As grandezas de interesse são: Posição GPS, orientação cardeal, velocidade,
 ### Dimensão da Interface
 
 Abaixo estão as fotos da embarcação atual da equipe. Observando o nicho do piloto e a seção dianteira é possível ter uma noção para dimensionar corretamente a tela.
+(falta a foto com a parte dianteira montada + direção)
 
 | Nicho do Piloto | Seção da Direção |
 |--------|------|
 |![Nicho do piloto](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/899df3555cb04dffced7e3e54e8f571c010092bf/Imagens/Nicho_do_Piloto.png)|![Diâmetro da Seção da Direção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/899df3555cb04dffced7e3e54e8f571c010092bf/Imagens/Di%C3%A2metro_Se%C3%A7%C3%A3o_da_Dire%C3%A7%C3%A3o.png)|
-(falta a foto com a parte dianteira montada + direção)
+
+

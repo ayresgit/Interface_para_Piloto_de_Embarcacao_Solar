@@ -32,15 +32,27 @@ Inspirada no sistema real da embarcação, a interface desenvolvida nesse projet
 
 Visando o alvo de aplicação da interface é evidente que o sistema deve possuir alta eficiência energética. É interessante que o computador esteja de acordo o hardware implementado no sistema real, e que os sensores a serem adicionados sejam compatíveis com o mesmo.
 
-As grandezas de interesse são: Posição GPS, orientação cardeal, velocidade, tensão e corrente na bateria. O diagrama de blocos abaixo apresenta o sistema e os sensores que devem ser implementados.
+As grandezas estipuladas como requisitos são: Posição GPS, orientação cardeal, velocidade, tensão e corrente na bateria. O diagrama de blocos abaixo apresenta o sistema e os sensores que devem ser implementados. Possíveis módulos a serem tilizados: Neo 6M GPS, Bússola HMC5883L, MPU-6050 Acelerômetro e Giroscópio.
 
 ![Diagrama concepção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/5f6bf20e956930dfbec1722abd79817f228a61f0/Imagens/Diagrama_concep%C3%A7%C3%A3o.PNG)
 
-| Função | Proposta | Custo? | Imagem |
-|--------|----------|--------|--------|
-| GPS | Neo 6M | xx | 
+É essencial que a interface gráfica esteja de acordo com as tarefas que o piloto irá executar. O excesso de informação apresentada pode confundir e/ou distrair o usuário [7], assim, a efetividade das informações para execução dessas tarefas deve ser estudada, e sua quantidade deve corresponder à prioridade das mesmas. Além disso, o dimensionamento da tela deve ser feito cuidadosamente para que exista um equilíbrio entre área de visão ocupada e tempo de leitura do usuário (o que afeta na concentração)
+
+## Design
+
+### Sensores
+
+| Função | Proposta | Custo? |
+|--------|----------|--------|
+| GPS | Neo 6M | xx |
 | Bússola | HMC5883L | xx |
 | Velocidade | MPU-6050 | xx |
+
+| Neo 6M | HMC5883L | MPU-6050 |
+|--------|--------|--------|
+|![Módulo GPS Neo 6M](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/Neo%206M.PNG)|![Módulo Bússola Eletrônica](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/HMC5883L.PNG)|![Módulo Acelerômetro e Giroscópio](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/MPU-6050.PNG)| 
+
+### Interface
 
 Abaixo estão as fotos da embarcação atual da equipe. Observando o nicho do piloto e a seção dianteira é possível ter uma noção para dimensionar corretamente a tela.
 (falta a foto com a parte dianteira montada + direção)
@@ -50,10 +62,5 @@ Abaixo estão as fotos da embarcação atual da equipe. Observando o nicho do pi
 |![Nicho do piloto](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/899df3555cb04dffced7e3e54e8f571c010092bf/Imagens/Nicho_do_Piloto.png)|![Diâmetro da Seção da Direção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/899df3555cb04dffced7e3e54e8f571c010092bf/Imagens/Di%C3%A2metro_Se%C3%A7%C3%A3o_da_Dire%C3%A7%C3%A3o.png)|
 
 Tela escolhida.
-
-## Design
-
-| Tabela dos sensores escolhidos |
-
 
 

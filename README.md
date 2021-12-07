@@ -37,11 +37,11 @@ As grandezas de interesse são: Posição GPS, orientação cardeal, velocidade,
 x
 
 ![Diâmetro da Seção da Direção]
-(https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/Di%C3%A2metro%20da%20Se%C3%A7%C3%A3o%20da%20Dire%C3%A7%C3%A3o.png)
+(https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/Di%C3%A2metro_Se%C3%A7%C3%A3o_da_Dire%C3%A7%C3%A3o.png)
 
 x
 
 ![Nicho do piloto]
-(https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/Nicho%20do%20Piloto.png)
+(https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/Nicho_do_Piloto.png)
 
 

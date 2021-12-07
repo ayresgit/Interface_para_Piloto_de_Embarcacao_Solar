@@ -41,6 +41,8 @@ Pela mesma razão, o dimensionamento da tela deve ser feito cuidadosamente para 
 
 ## Design
 
+| Imagem das conexões |
+
 ### Sensores
 
 | Função | Proposta | Custo? |

@@ -36,9 +36,9 @@ As grandezas estipuladas como requisitos são: Posição GPS, orientação carde
 
 ![Diagrama concepção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/5f6bf20e956930dfbec1722abd79817f228a61f0/Imagens/Diagrama_concep%C3%A7%C3%A3o.PNG)
 
-Para o hardware utilizado para a interface, o dimensionamento da tela deve ser feito cuidadosamente para que exista um equilíbrio entre área de visão ocupada e o tempo que o usuário leva para compreender os dados.
+O dimensionamento da tela deve ser feito cuidadosamente para que exista um equilíbrio entre área de visão ocupada e o tempo que o usuário leva para compreender os dados.
 
-Toda a informação fornecida deve ser simplificada ao máximo para reduzir esforço cognitivo [1, 2]. Além disso, deve estar de acordo com as tarefas que o piloto irá executar. O excesso de informação apresentada pode confundir e/ou distrair o usuário [1], assim, a efetividade das informações para execução dessas tarefas deve ser estudada e sua quantidade deve corresponder à prioridade das mesmas.                                 
+Toda a informação fornecida deve ser simplificada ao máximo para reduzir esforço cognitivo [1, 2], além disso, deve estar de acordo com as tarefas que o piloto irá executar. O excesso de informação apresentada pode confundir e/ou distrair o usuário [1], assim, a efetividade das informações para execução dessas tarefas deve ser estudada e sua quantidade deve corresponder à prioridade das mesmas.                                 
 
 
 ## Design

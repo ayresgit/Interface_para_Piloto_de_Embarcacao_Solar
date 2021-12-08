@@ -41,7 +41,7 @@ Pela mesma razão, o dimensionamento da tela deve ser feito cuidadosamente para 
 
 ## Design
 
-| Imagem das conexões |
+| Imagem das conexões entre os módulos |
 
 ### Sensores
 

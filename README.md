@@ -70,16 +70,16 @@ Tela escolhida.
 
 O programa escolhido para o desenvolvimento da interface gráfica foi o QT Creator, com programação em C++. A plataforma também oferece uma ferramenta de design manual, agilizando tarefas como desenho, personalização e comportamento da interface.
 
-O sistema final terá muitos dados a apresentar, alguns deles serão de interesse do piloto e dentre esses alguns serão essenciais. Esse projeto não terá a mesma quantia de dados, mesmo assim é interessante criar a interface e fazer essa diferenciação. 
+O sistema final terá muitos dados a apresentar, alguns deles serão de interesse do piloto e dentre esses alguns serão essenciais. Esse projeto fará a simulação de alguns dados uma vez que o estudo é focado nessa diferenciação entre eles, e não somente na implementação de sensores. 
 
 Para isso, as seguintes janelas foram criadas:
 | Janela Inicial | Janela de Navegação | Janela de Aceleração |
 |--------|--------|--------|
 |![Janela Inicial](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/d294cd3302df508855f09901d4b271fe2cf03fbe/Imagens/Janela%20Inicial.PNG)|![Janela de Navegação](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/61b6682b35a1d7ca4e402f20ceda5caa5d7507e7/Imagens/Janela%20Navega%C3%A7%C3%A3o.PNG)|![Janela de Aceleração](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/d294cd3302df508855f09901d4b271fe2cf03fbe/Imagens/Janela%20Acelera%C3%A7%C3%A3o.PNG)|
 
-As janelas Inicial e de Aceleração foram criadas para demonstração: uma para o que podeira ser o modo de descanso do computador de interface, e outra para demonstrar dados não essenciais para navegação. 
+As janelas Inicial e de Aceleração foram criadas para demonstração: uma para o que poderia ser o modo de descanso do computador de interface, e outra para demonstrar dados não essenciais para navegação. 
 
-Toda a informação deve ser simplificada ao máximo para reduzir esforço cognitivo, uma vez que o excesso pode confundir e/ou distrair o usuário [1]. Assim, levando em conta a disponibilidade de informação, os dados essenciais para a pilotagem deve se concentrar em um único modo da interface (nesse caso a janela de navegação).
+Toda a informação deve ser simplificada ao máximo para reduzir esforço cognitivo, uma vez que o excesso pode confundir e/ou distrair o usuário [1]. Levando em conta a disponibilidade de informação, os dados essenciais para a pilotagem devem se concentrar em um único modo da interface (nesse caso a janela de navegação).
 
 ## Bibliografia
 

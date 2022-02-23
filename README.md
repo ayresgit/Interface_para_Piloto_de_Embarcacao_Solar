@@ -90,6 +90,8 @@ Toda a informação deve ser simplificada ao máximo para reduzir esforço cogni
 
 (funcionamento básico dos sensores)
 
+(software)
+
 (integração com a interface)
 
 ## Bibliografia

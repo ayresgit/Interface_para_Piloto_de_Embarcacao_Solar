@@ -83,7 +83,9 @@ Toda a informação deve ser simplificada ao máximo para reduzir esforço cogni
 
 (ajuste das informações nas janelas, forma quantia e espaçamento)
 
-(acessibilidade das entradas do usuário, como trocar de janela, e contraste das cores)
+(acessibilidade das entradas do usuário, como trocar de janela)
+
+(contraste das cores levando em conta o ambiente com ilumincação intensa)
 
 
 ## Implementação

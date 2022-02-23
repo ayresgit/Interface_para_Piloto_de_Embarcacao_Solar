@@ -88,7 +88,9 @@ Toda a informação deve ser simplificada ao máximo para reduzir esforço cogni
 
 ## Implementação
 
+(funcionamento básico dos sensores)
 
+(integração com a interface)
 
 ## Bibliografia
 

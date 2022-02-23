@@ -36,9 +36,7 @@ As grandezas estipuladas como requisitos são: Posição GPS, orientação carde
 
 ![Diagrama concepção](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/5f6bf20e956930dfbec1722abd79817f228a61f0/Imagens/Diagrama_concep%C3%A7%C3%A3o.PNG)
 
-O dimensionamento da tela deve ser feito cuidadosamente para que exista um equilíbrio entre área de visão ocupada e o tempo que o usuário leva para compreender os dados.
-
-Toda a informação fornecida deve ser simplificada ao máximo para reduzir esforço cognitivo [1, 2], além disso, deve estar de acordo com as tarefas que o piloto irá executar. O excesso de informação apresentada pode confundir e/ou distrair o usuário [1], assim, a efetividade das informações para execução dessas tarefas deve ser estudada e sua quantidade deve corresponder à prioridade das mesmas.                                 
+O dimensionamento da tela deve ser feito cuidadosamente para que exista um equilíbrio entre área de visão ocupada e o tempo que o usuário leva para compreender os dados. Por último, esses devem ser apresentados em quantia e forma efetiva, de forma que aumente a capacidade do piloto ao invés de distraí-lo.                       
 
 
 ## Design
@@ -57,7 +55,7 @@ Toda a informação fornecida deve ser simplificada ao máximo para reduzir esfo
 |--------|--------|--------|
 |![Módulo GPS Neo 6M](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/Neo%206M.PNG)|![Módulo Bússola Eletrônica](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/HMC5883L.PNG)|![Módulo Acelerômetro e Giroscópio](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/main/Imagens/MPU-6050.PNG)| 
 
-### Interface
+### Interface física
 
 Abaixo estão as fotos da embarcação atual da equipe. Observando o nicho do piloto e a seção dianteira é possível ter uma noção para dimensionar corretamente a tela.
 (falta a foto com a parte dianteira montada + direção)
@@ -68,7 +66,22 @@ Abaixo estão as fotos da embarcação atual da equipe. Observando o nicho do pi
 
 Tela escolhida.
 
+### Desenvolvimento da Interface Gráfica
+
+O programa escolhido para o desenvolvimento da interface gráfica foi o QT Creator, com programação em C++. A plataforma também oferece uma ferramenta de design manual, agilizando tarefas como desenho, personalização e comportamento da interface.
+
+O sistema final terá muitos dados a apresentar, alguns deles serão de interesse do piloto e dentre esses alguns serão essenciais. Esse projeto não terá a mesma quantia de dados, mesmo assim é interessante criar a interface e fazer essa diferenciação. 
+
+Para isso, as seguintes janelas foram criadas:
+| Janela Inicial | Janela de Navegação | Janela de Aceleração |
+|--------|--------|--------|
+|![Janela Inicial](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/d294cd3302df508855f09901d4b271fe2cf03fbe/Imagens/Janela%20Inicial.PNG)|![Janela de Navegação](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/61b6682b35a1d7ca4e402f20ceda5caa5d7507e7/Imagens/Janela%20Navega%C3%A7%C3%A3o.PNG)|![Janela de Aceleração](https://github.com/ayresgit/Interface_para_Piloto_de_Embarcacao_Solar/blob/d294cd3302df508855f09901d4b271fe2cf03fbe/Imagens/Janela%20Acelera%C3%A7%C3%A3o.PNG)|
+
+As janelas Inicial e de Aceleração foram criadas para demonstração: uma para o que podeira ser o modo de descanso do computador de interface, e outra para demonstrar dados não essenciais para navegação. 
+
+Toda a informação deve ser simplificada ao máximo para reduzir esforço cognitivo, uma vez que o excesso pode confundir e/ou distrair o usuário [1]. Assim, levando em conta a disponibilidade de informação, os dados essenciais para a pilotagem deve se concentrar em um único modo da interface (nesse caso a janela de navegação).
+
 ## Bibliografia
 
-[1] HAN, Xuan; PATTERSON, Patrick; The effect of information availability in a user interface (UI) on in-vehicle task performance: A pilot study. International Journal of Industrial Ergonomics 61 (2017). Disponível [aqui,](https://reader.elsevier.com/reader/sd/pii/S0169814117302731?token=7DC00FCEEDEFC402D3D6EA906F4603617028E6641A210E748B19B247E6C2FCBBDEB48597B2F2B649EFB50A7646E7A4F1&originRegion=us-east-1&originCreation=20211208114113) acesso feito com o VPN da instituição IFSC.
+[1] HAN, Xuan; PATTERSON, Patrick; The effect of information availability in a user interface (UI) on in-vehicle task performance: A pilot study. International Journal of Industrial Ergonomics 61 (2017). Disponível [aqui,](https://reader.elsevier.com/reader/sd/pii/S0169814117302731?token=7DC00FCEEDEFC402D3D6EA906F4603617028E6641A210E748B19B247E6C2FCBBDEB48597B2F2B649EFB50A7646E7A4F1&originRegion=us-east-1&originCreation=20211208114113) acesso feito com o VPN do IFSC.
 
